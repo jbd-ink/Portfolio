@@ -1048,10 +1048,17 @@ background: #0dc990;
  }
 
  .contact__formpt1{
+  margin: 0 40rem;
   justify-content: center;
   gap: 1rem;
   display: flex;
   flex-direction: column;
+ }
+
+ @media screen and (max-width:768px){
+  .contact__formpt1{
+    margin: 0 8rem;
+  }
  }
 
  .form-group{
